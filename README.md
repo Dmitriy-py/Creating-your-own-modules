@@ -194,9 +194,9 @@ if __name__ == '__main__':
 
 | Артефакт | Ссылка |
 | :--- | :--- |
-| **Публичный репозиторий Collection** | `https://github.com/Dmitriy-py/my_own_collection` |
-| **Ссылка на тег версии 1.0.0** | `https://github.com/Dmitriy-py/my_own_collection/tags` |
-| **Ссылка на архив (.tar.gz)** | `https://github.com/Dmitriy-py/my_own_collection/archive/refs/tags/1.0.0.tar.gz` |
+| **Публичный репозиторий Collection** | https://github.com/Dmitriy-py/my_own_collection |
+| **Ссылка на тег версии 1.0.0** | https://github.com/Dmitriy-py/my_own_collection/tags |
+| **Ссылка на архив (.tar.gz)** | https://github.com/Dmitriy-py/my_own_collection/archive/refs/tags/1.0.0.tar.gz |
 
 ---
 
