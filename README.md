@@ -190,3 +190,48 @@ if __name__ == '__main__':
 
 ## Ответ:
 
+## 1. Ссылки на артефакты
+
+| Артефакт | Ссылка |
+| :--- | :--- |
+| **Публичный репозиторий Collection** | `https://github.com/Dmitriy-py/my_own_collection` |
+| **Ссылка на тег версии 1.0.0** | `https://github.com/Dmitriy-py/my_own_collection/tags` |
+| **Ссылка на архив (.tar.gz)** | `https://github.com/Dmitriy-py/my_own_collection/archive/refs/tags/1.0.0.tar.gz` |
+
+---
+
+## 2. Подтверждение выполнения (Скриншоты)
+
+Все этапы, включая исправление синтаксиса YAML в модуле и тестирование идемпотентности, были успешно завершены.
+
+### Скриншот 1: Структура и код модуля (Шаг 4)
+*Подтверждение наличия и содержимого `my_own_module.py`.*
+
+<img width="1920" height="1080" alt="Снимок экрана (1978)" src="https://github.com/user-attachments/assets/401d2651-b2be-4851-99ba-22b11d30ba43" />
+
+<img width="1920" height="1080" alt="Снимок экрана (1979)" src="https://github.com/user-attachments/assets/1cda3efb-73fe-49e7-8141-76954631f058" />
+
+
+### Скриншот 2: Установка Collection (Шаг 15)
+*Подтверждение успешной установки коллекции из локального архива.*
+
+<img width="1920" height="1080" alt="Снимок экрана (1980)" src="https://github.com/user-attachments/assets/58a5d539-cb54-44ec-b787-84d3f752277f" />
+
+
+### Скриншот 3: Первый запуск (changed=True)
+*Подтверждение успешного создания файла и отчета `changed=True`.*
+
+<img width="1920" height="1080" alt="Снимок экрана (1981)" src="https://github.com/user-attachments/assets/bff89fdc-436e-4d89-b39a-a08fe8beb836" />
+
+### Скриншот 4: Обновление контента (changed=True)
+*Подтверждение, что модуль корректно обновил контент файла во втором запуске.*
+
+<img width="1920" height="1080" alt="Снимок экрана (1982)" src="https://github.com/user-attachments/assets/8125e4ba-68bf-44f2-9780-5429278ff4ea" />
+
+
+### Скриншот 4: Проверка идемпотентности (changed=0)
+*Подтверждение, что после второго изменения контента, третий запуск возвращает `changed=0`.*
+
+<img width="1920" height="1080" alt="Снимок экрана (1983)" src="https://github.com/user-attachments/assets/10e7e78c-0de7-41e4-8ca5-2ae40e5b0e4b" />
+
+
